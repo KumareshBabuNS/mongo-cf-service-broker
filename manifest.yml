@@ -1,0 +1,13 @@
+---
+applications:
+- name: mongodb-service-broker
+  memory: 1G
+  instances: 1
+  path: build/libs/cloudfoundry-mongodb-service-broker.jar
+  env:
+    MONGODB_HOST: 192.168.0.63 
+    MONGODB_PORT: 27017
+    MONGODB_USERNAME: intruder
+    MONGODB_PASSWORD: intruder12
+    SECURITY_USER_NAME: admin
+    SECURITY_USER_PASSWORD: admin
