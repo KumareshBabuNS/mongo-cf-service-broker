@@ -9,3 +9,7 @@ plan : default
 
 MongoConfig.java edit for using
 (MongoDB Server URL edit)
+
+
+./gradlew clean assemble
+
